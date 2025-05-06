@@ -1538,6 +1538,20 @@ a.newer-posts:hover {
 
 
 
+.sidebar-nav {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
 .sidebar-nav a {
   text-decoration: none;
   color: #333;
@@ -1549,7 +1563,7 @@ a.newer-posts:hover {
 }
 
 .sidebar-nav a.active-link {
-  color: #007acc; /* μπλε για active */
+  color: #007acc;
   font-weight: bold;
 }
 
