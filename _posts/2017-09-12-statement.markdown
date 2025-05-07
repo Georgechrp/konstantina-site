@@ -3,7 +3,7 @@ layout: post
 title: Statement for Crossing: Learning Bridges Across the Atlantic Program
 order: 5
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: publications.jpg # Add image post (optional)
+img: interests.jpg # Add image post (optional)
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 
 ---
