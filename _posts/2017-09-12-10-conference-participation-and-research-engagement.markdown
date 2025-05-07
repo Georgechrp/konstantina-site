@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Conference Participation and Research Engagement
+order: 3
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: conferences.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
