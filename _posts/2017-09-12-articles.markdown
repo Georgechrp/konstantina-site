@@ -3,22 +3,22 @@ layout: post
 title: My Articles
 order: 6
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
-img: publications.jpg
+img: articles.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
 
-## Article 1
+## AI hallucinations
 <embed src="/assets/files/AI hallucinations.pdf" type="application/pdf" width="100%" height="600px" />
 [Download PDF]( /assets/files/article1.pdf ){:target="_blank"}
 
 ---
 
-## Article 2
+## ALEVIZOU FRANTZESKAKI SLER2025 PAPER PROPOSAL_8-2-2025
 <embed src="/assets/files/ALEVIZOU_FRANTZESKAKI_SLER2025_PAPER PROPOSAL_8-2-2025.pdf" type="application/pdf" width="100%" height="600px" />
 [Download PDF]( /assets/files/article2.pdf ){:target="_blank"}
 
 ---
 
-## Article 3
+## YouTube in Kindergarten teaching
 <embed src="/assets/files/YouTube in Kindergarten teaching.pdf" type="application/pdf" width="100%" height="600px" />
 [Download PDF]( /assets/files/article3.pdf ){:target="_blank"}
