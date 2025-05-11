@@ -1568,6 +1568,17 @@ a.newer-posts:hover {
 }
 
 
+/* Override μόνο για συγκεκριμένο layout */
+.sidebar-centered-nav {
+  margin-left: 0 !important;
+}
+
+.sidebar-centered-nav ul {
+  align-items: center;
+  text-align: center;
+}
+
+
 .wakelet-button {
   display: inline-block;
   margin-top: 20px;
