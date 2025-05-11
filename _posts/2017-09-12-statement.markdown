@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statement for 'Crossing: Learning Bridges Across the Atlantic' Program"
+title: "Educational initiative: Crossing learning bridges program: A collaboration between Greek and American students"
 order: 5
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: crossing.jpg # Add image post (optional)
@@ -11,3 +11,5 @@ With a strong foundation in English language education and applied linguistics, 
 <a href="https://wakelet.com/wake/VBhxFtHVIzhNQAwvopoyf" target="_blank" class="button wakelet-button">
   🔗 View Project on Wakelet
 </a>
+
+
