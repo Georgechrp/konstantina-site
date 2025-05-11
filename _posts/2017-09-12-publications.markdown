@@ -7,6 +7,9 @@ img: publications.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, AI in Education, Inclusive Education, STEAM, Trilingualism, Educational Technology, Conferences]
 ---
 
+Recent academic contributions and upcoming conference participations.
+
+
 ## 📚 Publications
 
 <ul>
