@@ -1600,10 +1600,3 @@ a.newer-posts:hover {
   margin-left: 220px;
   max-width: 900px;
 }
-@media (max-width: 768px) {
-  .content-box {
-    margin-left: 0 !important;
-    padding: 20px;
-    max-width: 100% !important;
-  }
-}
