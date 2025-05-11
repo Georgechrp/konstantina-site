@@ -7,6 +7,10 @@ img: articles.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
 
+
+ Explore recent academic articles by K. Alevizou on AI in education, inclusive practices, and multilingual teaching innovation.
+
+
 ## AI hallucinations
 
 📄 [Διάβασε το άρθρο]( /assets/files/AI%20hallucinations.pdf ){:target="_blank"}  
