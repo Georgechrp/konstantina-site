@@ -1,0 +1,15 @@
+<div id="cvModal" class="cv-modal">
+  <div class="cv-modal-content">
+    <span class="cv-close" onclick="closeCvPopup()">&times;</span>
+    <iframe src="{{site.baseurl}}/assets/files/cv.pdf" frameborder="0"></iframe>
+  </div>
+</div>
+
+<script>
+  function openCvPopup() {
+    document.getElementById("cvModal").style.display = "block";
+  }
+  function closeCvPopup() {
+    document.getElementById("cvModal").style.display = "none";
+  }
+</script>
