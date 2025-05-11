@@ -1567,3 +1567,19 @@ a.newer-posts:hover {
   font-weight: bold;
 }
 
+
+.wakelet-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #0084ff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.wakelet-button:hover {
+  background-color: #005bb5;
+}
