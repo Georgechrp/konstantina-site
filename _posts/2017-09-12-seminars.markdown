@@ -3,7 +3,7 @@ layout: post
 title: Professional training
 order: 7
 description: A curated list of seminars, short courses, and skills development programs in education and technology.
-img: crossing.jpg
+img: professional.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
 A curated list of seminars, short courses, and skills development programs in education and technology.
