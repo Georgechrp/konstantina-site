@@ -1,0 +1,44 @@
+---
+layout: post
+title: Professional training
+order: 7
+description: A curated list of seminars, short courses, and skills development programs in education and technology.
+img: crossing.jpg
+tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
+---
+A curated list of seminars, short courses, and skills development programs in education and technology.
+## 📚 Seminars & Short Courses
+
+- **“STEM in Education”** – University of Athens (UoA)  
+  *09/2023 – 06/2024*
+
+- **“Teaching Pathways: Skills for Remote Teaching”** – British Council  
+  *04/2022 – 05/2022*
+
+- **“Editing and Correcting Text”** – University of Athens (UoA)  
+  *05/2021 – 10/2021*
+
+- **“How to be an Effective Online Teacher”** – Hellenic American Union (HAU)  
+  *03/2021*
+
+- **“Teaching Foreign Languages to Children of Early School and Pre-School Age”** – University of Athens (UoA)  
+  *09/2019 – 02/2020*
+
+---
+
+## 🗣️ Languages
+
+- **Greek**: Native  
+- **English**: Excellent  
+- **German**: Advanced  
+- **Chinese**: Good
+
+---
+
+## 💻 IT Skills
+
+- **MS Office**  
+- **Wordwall**  
+- **Canva**  
+- **Twinkle**  
+- **Online Conferences**: Skype, Zoom, Webex
