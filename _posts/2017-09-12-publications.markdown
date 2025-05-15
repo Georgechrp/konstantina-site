@@ -9,6 +9,8 @@ tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, AI in Edu
 
 Recent academic contributions and upcoming conference participations.
 
+<p><em>Based on my research interests, I have participated in the following conferences…</em></p>
+
 
 ## 📚 Publications
 
