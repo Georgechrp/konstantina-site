@@ -13,9 +13,9 @@ Recent academic contributions and upcoming conference participations.
 ## 📚 Publications
 
 
- Based on my research interests I have participated in the following conferences…
+# Based on my research interests I have participated in the following conferences…
 
- 
+
 <ul>
   <li><strong>Alevizou, K., Fratzeskaki, E.</strong> (2025). <em>Enhancing Learners' Writing Competence through the Integration of AI-Powered Writing Assistance Tools in the Instruction of English and French as Foreign Languages.</em> (Article submitted for publishing).</li>
 
