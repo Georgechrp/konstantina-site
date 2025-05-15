@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publications & Announcements
+title: Conference Participations
 order: 6
 description: Recent academic contributions and upcoming conference participations.
 img: publications.jpg
