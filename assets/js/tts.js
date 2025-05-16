@@ -4,10 +4,15 @@ let isPaused = false;
 
 function toggleRead() {
   const btn = document.getElementById('tts-btn');
+  const target = document.querySelector('.tts-target');
 
-  // Αν δεν ξεκίνησε ποτέ
+  if (!target) {
+    alert("No readable content found.");
+    return;
+  }
+
   if (!isSpeaking) {
-    const text = document.querySelector('.about-text').innerText;
+    const text = target.innerText;
     utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
     utterance.rate = 1;
@@ -23,22 +28,12 @@ function toggleRead() {
       btn.innerText = '🔊 Listen to this';
     };
   } else if (!isPaused) {
-    // Αν μιλάει, κάνε pause
     speechSynthesis.pause();
     isPaused = true;
     btn.innerText = '▶️ Resume Reading';
   } else {
-    // Αν είναι paused, κάνε resume
     speechSynthesis.resume();
     isPaused = false;
     btn.innerText = '⏸ Pause Reading';
   }
-}
-
-function stopReading() {
-  speechSynthesis.cancel();
-  isSpeaking = false;
-  isPaused = false;
-  const btn = document.getElementById('tts-btn');
-  btn.innerText = '🔊 Listen to this';
 }
