@@ -19,3 +19,4 @@ Konstantina Alevizou holds a strong academic foundation in the fields of English
 </p>
 </div>
 
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>
