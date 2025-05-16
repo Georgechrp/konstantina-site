@@ -6,9 +6,11 @@ permalink: /about.html
 
 
 <div class="about-text" style="width: 95%; max-width: 1200px; margin: 30px auto; padding: 0 15px;">
-<button id="tts-btn" onclick="toggleRead()" style="margin-bottom: 20px; cursor: pointer;">
-  🔊 Listen to this
-</button>
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+  <button onclick="stopReading()" style="cursor: pointer;">⏹ Stop</button>
+</div>
+
 
   <h2 style="font-size: 32px; margin-bottom: 10px; text-align: center;">About Me</h2>
   <p style="text-align: center; margin-top: 0; font-size: 14px; letter-spacing: 1px; color: #666;">Educator · Researcher · Language + Technology Enthusiast</p>
