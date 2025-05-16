@@ -9,7 +9,9 @@ tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
 </div>
-A curated list of seminars, short courses, and skills development programs in education and technology.
+<div class="tts-target">
+  A curated list of seminars, short courses, and skills development programs in education and technology.
+</div>
 ## 📚 Seminars & Short Courses
 
 - **“STEM in Education”** – University of Athens (UoA)  

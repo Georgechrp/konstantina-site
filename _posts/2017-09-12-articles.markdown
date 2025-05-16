@@ -10,10 +10,11 @@ tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
 </div>
-
+<div class="tts-target">
  Explore recent academic articles by K. Alevizou on AI in education, inclusive practices, and multilingual teaching innovation.
 
 <p><em>My academic papers target research areas such as…</em></p>
+</div>
 
 
 ## AI hallucinations

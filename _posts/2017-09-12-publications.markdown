@@ -9,10 +9,11 @@ tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, AI in Edu
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
 </div>
-Recent academic contributions and upcoming conference participations.
+<div class="tts-target">
+  Recent academic contributions and upcoming conference participations.
 
-<p><em>Based on my research interests, I have participated in the following conferences…</em></p>
-
+  <p><em>Based on my research interests, I have participated in the following conferences…</em></p>
+</div>
 
 ## 📚 Publications
 
