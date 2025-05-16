@@ -6,6 +6,9 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: crossing.jpg # Add image post (optional)
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+</div>
 With a strong foundation in English language education and applied linguistics, I am eager to participate in the Crossing: Learning Bridges Across the Atlantic program to foster deeper intercultural collaboration and pedagogical exchange. My professional journey as an ESL/EFL teacher across diverse Greek educational contexts—ranging from kindergartens to adult learners—has been shaped by a continuous engagement with inclusive practices and digital innovation. I am particularly drawn to the program’s mission of building educational bridges, as my own research explores the intersection of AI-supported learning and multilingual competence, areas that transcend national boundaries. My previous collaborations with U.S.-based institutions, such as the Hellenic American Union, and my ongoing graduate studies in educational technology position me to contribute meaningfully to transatlantic dialogue. I envision this program as a unique opportunity to exchange best practices, co-develop inclusive language teaching frameworks, and enrich my understanding of how educational values are shared and transformed across cultures.
 
 <a href="https://wakelet.com/wake/VBhxFtHVIzhNQAwvopoyf" target="_blank" class="button wakelet-button">
@@ -13,3 +16,6 @@ With a strong foundation in English language education and applied linguistics, 
 </a>
 
 
+
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>

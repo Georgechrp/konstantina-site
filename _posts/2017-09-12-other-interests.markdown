@@ -6,4 +6,9 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: personalinterests.jpg # Add image post (optional)
 tags: [Intercultural Education, Transatlantic Exchange, ESL, EFL, Inclusive Pedagogy, AI in Education, Multilingualism, Educational Technology, International Collaboration]
 ---
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+</div>
 When she is not working or studying, Konstantina is an outgoing person who enjoys indulging herself into the pleasures that the Arts offer, since she finds delight in watching theatrical performances, art exhibitions and music concerts. In addition, she is intrigued by reading classical novels and philosophical books. Finally, she is fascinated by travelling to different parts of the world in order to broaden her horizons and immerse herself into different cultures and mindsets. 
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>

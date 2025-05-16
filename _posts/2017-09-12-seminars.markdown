@@ -6,6 +6,9 @@ description: A curated list of seminars, short courses, and skills development p
 img: professional.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+</div>
 A curated list of seminars, short courses, and skills development programs in education and technology.
 ## 📚 Seminars & Short Courses
 
@@ -42,3 +45,7 @@ A curated list of seminars, short courses, and skills development programs in ed
 - **Canva**  
 - **Twinkle**  
 - **Online Conferences**: Skype, Zoom, Webex
+
+
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>

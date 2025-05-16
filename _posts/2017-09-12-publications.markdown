@@ -6,7 +6,9 @@ description: Recent academic contributions and upcoming conference participation
 img: publications.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, AI in Education, Inclusive Education, STEAM, Trilingualism, Educational Technology, Conferences]
 ---
-
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+</div>
 Recent academic contributions and upcoming conference participations.
 
 <p><em>Based on my research interests, I have participated in the following conferences…</em></p>
@@ -51,3 +53,6 @@ Recent academic contributions and upcoming conference participations.
 
   <li><strong>Alevizou, K., Fratzeskaki, E.</strong> (02/12/2023). <em>Enhancing Inclusive Teaching Practices in Mixed Ability Classrooms.</em> Institute of Culture, Democracy and Education (IPODE).</li>
 </ul>
+
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>

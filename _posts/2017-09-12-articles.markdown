@@ -7,6 +7,9 @@ img: articles.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
 
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+</div>
 
  Explore recent academic articles by K. Alevizou on AI in education, inclusive practices, and multilingual teaching innovation.
 
@@ -70,3 +73,7 @@ writer’s personal experience.
 
 📄 [Διάβασε το άρθρο]( /assets/files/YouTube%20in%20Kindergarten%20teaching.pdf ){:target="_blank"}  
 ⬇️ [Κατέβασέ το]( /assets/files/YouTube%20in%20Kindergarten%20teaching.pdf ){:download}
+
+
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>
