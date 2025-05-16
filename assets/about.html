@@ -3,6 +3,7 @@ layout: main
 title: About Me
 permalink: /about.html
 ---
+<button id="tts-btn" onclick="toggleRead()" style="margin-bottom: 20px;">🔊 Listen to this</button>
 
 <div class="about-text" style="width: 95%; max-width: 1200px; margin: 30px auto; padding: 0 15px;">
   <h2 style="font-size: 32px; margin-bottom: 10px; text-align: center;">About Me</h2>
@@ -28,3 +29,33 @@ permalink: /about.html
     Konstantina envisions a future where AI is ethically and meaningfully integrated into education to empower diverse learners and enhance teaching practices. Her aspiration to pursue a PhD in AI in Education stems from a desire to explore how intelligent technologies can support inclusive, personalized, and culturally responsive language learning. Through rigorous research and cross-disciplinary collaboration, she aims to contribute to the design of pedagogically sound AI applications that transform classrooms into more adaptive and equitable spaces for all learners.
   </p>
 </div>
+
+
+<script>
+  let isSpeaking = false;
+  let utterance;
+
+  function toggleRead() {
+    const btn = document.getElementById('tts-btn');
+
+    if (!isSpeaking) {
+      const text = document.querySelector('.about-text').innerText;
+      utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = 1;
+      speechSynthesis.speak(utterance);
+      isSpeaking = true;
+      btn.innerText = '⏹ Stop Reading';
+
+      utterance.onend = () => {
+        isSpeaking = false;
+        btn.innerText = '🔊 Listen to this';
+      };
+    } else {
+      speechSynthesis.cancel();
+      isSpeaking = false;
+      btn.innerText = '🔊 Listen to this';
+    }
+  }
+</script>
+
