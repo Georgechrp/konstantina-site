@@ -3,7 +3,7 @@ layout: post
 title: Conference Participation and Research Engagement
 order: 3
 description: Recent academic contributions and research presentations in educational innovation.
-img: publications.jpg
+img: conferencepart.jpg
 fig-caption:
 tags: [Educational Research, AI in Education, Inclusive STEAM, Language Education, Conference Presentations, Trilingualism, Digital Tools, Pedagogical Innovation, Intercultural Collaboration, Transatlantic Education, ESL, EFL, Educational Technology, Conferences]
 ---
