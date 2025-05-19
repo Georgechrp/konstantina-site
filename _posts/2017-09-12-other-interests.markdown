@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Personal Interests
-order: 4
+order: 7
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: personalinterests.jpg # Add image post (optional)
 tags: [Intercultural Education, Transatlantic Exchange, ESL, EFL, Inclusive Pedagogy, AI in Education, Multilingualism, Educational Technology, International Collaboration]
