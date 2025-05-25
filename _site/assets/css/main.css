@@ -1703,3 +1703,26 @@ a.newer-posts:hover {
     padding: 0 !important;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .main-layout {
+    padding-top: 60px; /* Δημιουργεί χώρο κάτω από το fixed top-bar */
+  }
+
+  .sidebar {
+    margin-top: 16px !important;
+  }
+
+  .about {
+    margin-top: 16px !important;
+  }
+
+  .top-bar {
+    padding: 6px 12px;
+    min-height: 44px;
+  }
+
+  .top-bar-title {
+    margin-top: 2px;
+  }
+}
