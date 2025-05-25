@@ -1383,40 +1383,49 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+.main-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
 
+/* Mobile: κάθετη διάταξη */
 @media only screen and (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+    padding: 0 12px;
+  }
+
   .sidebar {
     position: relative !important;
     top: auto;
     left: auto;
-    width: 100%;
-    padding: 20px 16px;
-    margin-bottom: 20px;
+    width: 100% !important;
+    margin: 0;
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     border: 1px solid #e0e0e0;
-    background-color: #ffffff;
-  }  .top-bar-title {
+  }
+
+  .content-box {
+    padding-left: 0 !important;
+    width: 100%;
+  }
+
+  .top-bar-title {
     text-align: center;
     width: 100%;
-    font-size: 20px;
-    font-weight: 600;
     margin: 8px 0;
+    font-size: 20px;
   }
 
   .top-bar-container {
     flex-direction: column;
     align-items: center;
   }
-
-  .burger {
-    margin-top: 6px;
-  }  .content-box {
-    flex-direction: column !important;
-    padding: 0 12px;
-    margin-top: 0;
-  }
 }
+
 
 
 
