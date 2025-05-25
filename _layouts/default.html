@@ -51,13 +51,53 @@
         margin: 0 auto;
         max-width: 1110px;
       }
+
+      .burger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #222;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .top-bar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .burger {
+    display: block;
+    margin-top: 8px;
+  }
+
+  .top-bar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .top-bar-links a {
+    margin: 10px 0;
+  }
+
+  .top-bar-links.show {
+    display: flex;
+  }
+}
+
     </style>
   </head>
   <body>
 
     <!-- Top Bar -->
     <div class="top-bar">
-      <div class="top-bar-container">
+      <div class="top-bar-container" >
+        <!-- Burger Button (Mobile only) -->
+<button class="burger" onclick="toggleMenu()">☰</button>
+
         <div class="top-bar-title">{{ site.title }}</div>
         <div class="top-bar-links">
           <a href="{{ site.baseurl }}/" class="active">Home</a>
@@ -74,4 +114,13 @@
 
     {% include cv_modal.html %}
   </body>
+
+
+  <script>
+  function toggleMenu() {
+    const links = document.querySelector('.top-bar-links');
+    links.classList.toggle('show');
+  }
+</script>
+
 </html>
