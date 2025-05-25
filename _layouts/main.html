@@ -2,65 +2,53 @@
 layout: default
 ---
 
-<aside class="sidebar">
-  <header>
-    <div class="about">
-      <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+<div class="main-layout" style="display: flex; padding-top: 0px;">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" >
+    <header>
+      <div class="about">
+        <div class="cover-author-image">
+          <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        </div>
+        <!--<div class="author-name">{{site.author}}</div>-->
+        <p>{{site.about-author}}</p>
       </div>
-      <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
-    </div>
 
+      
+    </header>
 
-    <nav class="sidebar-nav sidebar-centered-nav" style="margin-top: 20px;">
-  <ul style="list-style: none; padding: 0; text-align: center;">
-    <li style="margin-bottom: 10px;">
-      <a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active-link{% endif %}">Home</a>
-    </li>
-    <li>
-      <a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}active-link{% endif %}">Read About Me</a>
-    </li>
-  </ul>
-</nav>
+    <footer>
+      <section class="contact">
+        <h3 class="contact-title">Contact me</h3>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/assets/files/cv.pdf" target="_blank" title="Open CV">
+              <i class="fa fa-file-pdf-o"></i>
+            </a>
+          </li>
+          {% if site.social-linkedin %}
+            <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          {% else %}
+            <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          {% endif %}
+          {% if site.social-email %}
+            <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+          {% else %}
+            <li class="email"><a href="mailto:conny_alev@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          {% endif %}
+        </ul>
+      </section>
 
+      <div class="copyright">
+        <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+      </div>
+    </footer>
+  </aside>
 
-  </header>
+  <!-- Content -->
+  <div class="content-box clearfix" style="padding-left: 40px; max-width: 1000px;">
+    {{ content }}
+  </div>
 
-  <footer>
-    <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
-      <ul>
-        <li>
-          <a href="{{site.baseurl}}/assets/files/cv.pdf" target="_blank" title="Open CV">
-            <i class="fa fa-file-pdf-o"></i>
-          </a>
-        </li>
-
-
-        </li>
-
-        {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        {% else %}
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        {% endif %}
-
-        {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
-        {% else %}
-          <li class="email"><a href="mailto:conny_alev@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        {% endif %}
-      </ul>
-    </section>
-
-    <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
-    </div>
-  </footer>
-</aside>
-
-<div class="content-box clearfix" style="margin-left: 0px; max-width: 1100px;">
-  {{ content }}
 </div>
-

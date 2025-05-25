@@ -94,64 +94,117 @@
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
+  <head>
+    <style>
+      body {
+  background-color: #f0f0f0; /* Ή οποιοδήποτε άλλο hex, rgb ή named color */
+}
+
+      .top-bar {
+        width: 100%;
+        background-color: #ffffff;
+        color: #222;
+        padding: 16px 20px;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+        font-family: system-ui, sans-serif;
+      }
+
+      .top-bar-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .top-bar-title {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+      .top-bar-links a {
+        color: #999999;
+        text-decoration: none;
+        margin-left: 24px;
+        font-size: 15px;
+        transition: color 0.2s ease-in-out;
+      }
+
+      .top-bar-links a:hover,
+      .top-bar-links a.active {
+        color: #111111;
+      }
+
+      .content-box {
+        padding-top: 40px;
+        margin: 0 auto;
+        max-width: 1110px;
+      }
+    </style>
+  </head>
   <body>
-    <div class="wrapper">
-      <aside class="sidebar">
-  <header>
-    <div class="about">
-      <div class="cover-author-image">
-        <a href="/"><img src="/assets/img/image2.jpg" alt="Konstantina Alevizou"></a>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-container">
+        <div class="top-bar-title">Konstantina Alevizou</div>
+        <div class="top-bar-links">
+          <a href="/" class="active">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+        </div>
       </div>
-      <div class="author-name">Konstantina Alevizou</div>
-      <p>EAL English language philologist / oral examiner/ conference speaker/ AI enthusiast</p>
     </div>
 
+    <!-- Main Content -->
+    <div class="content-box clearfix">
+      <div class="main-layout" style="display: flex; padding-top: 0px;">
 
-    <nav class="sidebar-nav sidebar-centered-nav" style="margin-top: 20px;">
-  <ul style="list-style: none; padding: 0; text-align: center;">
-    <li style="margin-bottom: 10px;">
-      <a href="/" class="">Home</a>
-    </li>
-    <li>
-      <a href="/about.html" class="">Read About Me</a>
-    </li>
-  </ul>
-</nav>
+  <!-- Sidebar -->
+  <aside class="sidebar" >
+    <header>
+      <div class="about">
+        <div class="cover-author-image">
+          <a href="/"><img src="/assets/img/image2.jpg" alt="Konstantina Alevizou"></a>
+        </div>
+        <!--<div class="author-name">Konstantina Alevizou</div>-->
+        <p>EAL English language philologist / oral examiner/ conference speaker/ AI enthusiast</p>
+      </div>
 
+      
+    </header>
 
-  </header>
+    <footer>
+      <section class="contact">
+        <h3 class="contact-title">Contact me</h3>
+        <ul>
+          <li>
+            <a href="/assets/files/cv.pdf" target="_blank" title="Open CV">
+              <i class="fa fa-file-pdf-o"></i>
+            </a>
+          </li>
+          
+            <li class="linkedin"><a href="https://in.linkedin.com/in/konstantina-alevizou" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          
+          
+            <li class="email"><a href="mailto:conny_alev@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          
+        </ul>
+      </section>
 
-  <footer>
-    <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
-      <ul>
-        <li>
-          <a href="/assets/files/cv.pdf" target="_blank" title="Open CV">
-            <i class="fa fa-file-pdf-o"></i>
-          </a>
-        </li>
+      <div class="copyright">
+        <p>2025 &copy; Konstantina Alevizou</p>
+      </div>
+    </footer>
+  </aside>
 
-
-        </li>
-
-        
-          <li class="linkedin"><a href="https://in.linkedin.com/in/konstantina-alevizou" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        
-
-        
-          <li class="email"><a href="mailto:conny_alev@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        
-      </ul>
-    </section>
-
-    <div class="copyright">
-      <p>2025 &copy; Konstantina Alevizou</p>
-    </div>
-  </footer>
-</aside>
-
-<div class="content-box clearfix" style="margin-left: 0px; max-width: 1100px;">
-  <article class="article-page">
+  <!-- Content -->
+  <div class="content-box clearfix" style="padding-left: 40px; max-width: 1000px;">
+    <article class="article-page">
   <div class="page-content">
     
     <div class="page-cover-image">
@@ -161,7 +214,8 @@
       </figure>
     </div> <!-- End Page Cover Image -->
     
-    <div class="wrap-content">
+    <div class="wrap-content" style="max-width: 600px; margin-left: auto; margin-right: 0;">
+
       <header class="header-page">
         <h1 class="page-title">Professional training</h1>
         <div class="page-date"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
@@ -257,8 +311,9 @@
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
 
-</div>
+  </div>
 
+</div>
 
     </div>
 
@@ -287,20 +342,6 @@
     document.getElementById("cvModal").style.display = "none";
   }
 </script>
-
-
-    <body>
-  <div class="top-bar" style="width: 100%; background-color: #222; color: white; padding: 10px 20px; position: fixed; top: 0; z-index: 999;">
-    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between;">
-      <div><strong>Konstantina Alevizou</strong></div>
-      <div>
-        <a href="/" style="color: white; margin-right: 15px;">Home</a>
-        <a href="/about.html" style="color: white;">About</a>
-        <a href="/contact.html" style="color: white;">Contact</a>
-      </div>
-    </div>
-  </div>
-
 
   </body>
 </html>

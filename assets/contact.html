@@ -28,7 +28,7 @@ permalink: /contact.html
     }
 
     h1 {
-      font-size: 32px;
+      font-size: 20px;
       margin-bottom: 20px;
     }
 
@@ -51,7 +51,7 @@ permalink: /contact.html
       padding: 12px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      font-size: 15px;
+      font-size: 10px;
       box-sizing: border-box;
     }
 
@@ -89,18 +89,20 @@ permalink: /contact.html
       Feel free to reach out using the form below. I respond personally to every message and truly appreciate your interest!
     </p>
 
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
+    <form action="https://formspree.io/f/xdkgrggj" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" placeholder="Enter your email address">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-      <label for="message">Message</label>
-      <textarea id="message" placeholder="Write your message here..."></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
 
-      <button type="submit">Submit</button>
+        <button type="submit">Submit</button>
     </form>
+
+
   </div>
 
 </body>
