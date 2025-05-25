@@ -1501,12 +1501,12 @@ a.newer-posts:hover {
 
   /* Κάνε το top bar μικρότερο */
   .top-bar {
-    padding: 4px 12px;
-    min-height: 40px;
+    padding: 4px 8px;
+    min-height: 36px;
   }
 
   .top-bar-title {
-    font-size: 16px;
+    font-size: 15px;
     margin: 2px 0 0;
     text-align: center;
   }
@@ -1538,11 +1538,13 @@ a.newer-posts:hover {
   }
 
   /* Post container χωρίς κενά */
-  .post, .card, .article {
-    margin: 0 !important;
-    padding: 0 12px 24px !important;
-    width: 100%;
-  }
+.post, .card, .article {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
 
   /* Εικόνα και περιεχόμενο post full width */
   .post .post-thumbnail,
@@ -1560,8 +1562,7 @@ a.newer-posts:hover {
 
   /* Sidebar bio image */
   .about {
-    margin-top: 6px !important;
-    text-align: center;
+    margin-top: 12px !important;
   }
 
   .about img {
@@ -1695,7 +1696,10 @@ a.newer-posts:hover {
 }
 
 
-.content-box {
-  margin-left: 220px;
-  max-width: 900px;
+@media (max-width: 768px) {
+  .content-box {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
 }
