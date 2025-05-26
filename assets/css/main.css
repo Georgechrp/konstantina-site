@@ -1706,7 +1706,7 @@ a.newer-posts:hover {
 
 @media only screen and (max-width: 768px) {
   .main-layout {
-    padding-top: 30px; /* Δημιουργεί χώρο κάτω από το fixed top-bar */
+    padding-top: 5px; /* Δημιουργεί χώρο κάτω από το fixed top-bar */
   }
 
   .sidebar {
