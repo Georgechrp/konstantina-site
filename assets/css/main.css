@@ -1726,19 +1726,3 @@ a.newer-posts:hover {
     margin-top: 2px;
   }
 }
-
-
-@media only screen and (max-width: 768px) {
-  .post:first-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  .post-title {
-    margin-top: 0 !important;
-  }
-
-  body {
-    padding-top: 60px;
-  }
-}
