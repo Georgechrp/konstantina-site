@@ -1726,3 +1726,12 @@ a.newer-posts:hover {
     margin-top: 2px;
   }
 }
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .home .content-box {
+    padding-top: 20px !important;
+  }
+}
