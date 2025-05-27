@@ -1415,7 +1415,7 @@ a.newer-posts:hover {
   .content-box {
     padding-left: 0 !important;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 12px;
   }
 
   /* Top bar container vertical */
