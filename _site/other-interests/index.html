@@ -152,6 +152,51 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .top-bar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .burger {
+    display: block;
+    margin-top: 8px;
+  }
+
+  .top-bar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .top-bar-links a {
+    margin: 10px 0;
+  }
+
+  .top-bar-links.show {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .content-box {
+    padding-top: 5px !important; /* για να μη "τρώνε" την εικόνα/όνομα τα fixed top elements Ειναι κομπλε αυτο!!*/
+  }
+
+  .top-bar {
+    padding: 6px 12px;
+    min-height: 44px;
+  }
+
+  .top-bar-title {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .main-layout {
+    padding-top: 0px;/* πανω απο εικονα κατω απο topbar */
+  }
+}
 
 
 
