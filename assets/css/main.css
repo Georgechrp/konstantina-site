@@ -1836,3 +1836,18 @@ a.newer-posts:hover {
   }
 }
 
+
+
+.author-name.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .author-name.mobile-only {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+    text-align: center;
+  }
+}
