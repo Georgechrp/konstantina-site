@@ -12,6 +12,8 @@ function toggleRead() {
   }
 
   if (!isSpeaking) {
+    speechSynthesis.cancel();
+    
     const text = target.innerText;
     utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
@@ -37,3 +39,17 @@ function toggleRead() {
     btn.innerText = '⏸ Pause Reading';
   }
 }
+
+window.addEventListener('beforeunload', () => {
+  speechSynthesis.cancel();
+});
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') {
+    speechSynthesis.cancel();
+    isSpeaking = false;
+    isPaused = false;
+    const btn = document.getElementById('tts-btn');
+    if (btn) btn.innerText = '🔊 Listen to this';
+  }
+});
