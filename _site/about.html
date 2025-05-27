@@ -157,7 +157,7 @@
 }
 @media (max-width: 768px) {
   .content-box {
-    padding-top: 5px !important; /* για να μη "τρώνε" την εικόνα/όνομα τα fixed top elements Ειναι κομπλε αυτο!!*/
+    padding-top: 5px !important; /* για να μη "τρώνε" την εικόνα/όνομα τα fixed top elements Ειναι κομπλε αυτο, mallon!!*/
   }
 
   .top-bar {
@@ -168,19 +168,6 @@
   .top-bar-title {
     display: none;
   }
-}
-@media (max-width: 768px) {
-  .main-layout {
-    padding-top: 8px;/* πανω απο εικονα κατω απο topbar */
-  }
-}
-/* Απόκρυψη σε desktop */
-.author-name.mobile-only {
-  display: none;
-}
-
-/* Εμφάνιση μόνο σε κινητά */
-@media (max-width: 768px) {
   .author-name.mobile-only {
     display: block;
     font-size: 16px;
@@ -189,6 +176,16 @@
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .main-layout {
+    padding-top: 20px;/* πανω απο εικονα κατω απο topbar */
+  }
+}
+/* Απόκρυψη σε desktop */
+.author-name.mobile-only {
+  display: none;
+}
+
 
 
 
@@ -222,7 +219,7 @@
         <div class="cover-author-image">
           <a href="/"><img src="/assets/img/image2.jpg" alt="Konstantina Alevizou"></a>
         </div>
-       <div class="author-name mobile-only">Konstantina Alevizou</div>
+       <!--<div class="author-name mobile-only">Konstantina Alevizou</div>-->
 
         <p>EAL English language philologist / oral examiner/ conference speaker/ AI enthusiast</p>
       </div>
