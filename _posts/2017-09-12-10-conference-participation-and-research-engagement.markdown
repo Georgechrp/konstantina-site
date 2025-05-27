@@ -8,8 +8,18 @@ fig-caption:
 tags: [Educational Research, AI in Education, Inclusive STEAM, Language Education, Conference Presentations, Trilingualism, Digital Tools, Pedagogical Innovation, Intercultural Collaboration, Transatlantic Education, ESL, EFL, Educational Technology, Conferences]
 ---
 
+<style>
+  #tts-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
+</style>
+
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+  <button id="tts-btn" onclick="toggleRead()" title="Start Reading" style="cursor: pointer; font-size: 20px; border: none; background: none;">
+    🔊
+  </button>
 </div>
 
 <div class="tts-target">

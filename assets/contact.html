@@ -63,12 +63,21 @@ permalink: /contact.html
   .container button:hover {
     background-color: #666;
   }
+    #tts-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
 </style>
+
+
 
 <div class="page-container">
   <div class="container">
+    
     <h1>Get in Touch</h1>
-    <p>
+
+    <p class="tts-target">
       Whether you're a fellow educator, student, conference organizer, or simply curious about English as an Additional Language (EAL),
       I'd love to hear from you. As an experienced English language philologist, oral examiner, and speaker with a passion for AI in education,
       I'm always open to new ideas, collaborations, and opportunities.
@@ -90,3 +99,7 @@ permalink: /contact.html
     </form>
   </div>
 </div>
+
+
+
+<script src="{{ site.baseurl }}/assets/js/tts.js"></script>

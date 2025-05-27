@@ -172,7 +172,7 @@
 }
 @media (max-width: 768px) {
   .main-layout {
-    padding-top: 40px;
+    padding-top: 10px;
   }
 }
 
@@ -240,83 +240,80 @@
 
   <!-- Content -->
   <div class="content-box clearfix" style="padding-left: 40px; max-width: 1000px;">
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Get in Touch</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
+    <style>
+  .container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+  }
 
-    .container {
-      max-width: 700px;
-      margin: 50px auto;
-      background-color: #ffffff;
-      border-radius: 6px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      padding: 30px;
-    }
+  .container h1 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 
-    h1 {
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
+  .container p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 14px;
+  }
 
-    p {
-      color: #333;
-      line-height: 1.6;
-    }
+  .container label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
 
-    label {
-      display: block;
-      margin-top: 20px;
-      margin-bottom: 5px;
-      font-weight: 600;
-    }
+  .container input[type="text"],
+  .container input[type="email"],
+  .container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
 
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 10px;
-      box-sizing: border-box;
-    }
+  .container textarea {
+    resize: vertical;
+    height: 120px;
+  }
 
-    textarea {
-      resize: vertical;
-      height: 120px;
-    }
+  .container button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #888;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    button {
-      margin-top: 20px;
-      padding: 10px 25px;
-      background-color: #888;
-      color: white;
-      font-size: 16px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+  .container button:hover {
+    background-color: #666;
+  }
+    #tts-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
+</style>
 
-    button:hover {
-      background-color: #666;
-    }
-  </style>
-</head>
-<body>
 
+
+<div class="page-container">
   <div class="container">
+    
     <h1>Get in Touch</h1>
-    <p>
+
+    <p class="tts-target">
       Whether you're a fellow educator, student, conference organizer, or simply curious about English as an Additional Language (EAL),
       I'd love to hear from you. As an experienced English language philologist, oral examiner, and speaker with a passion for AI in education,
       I'm always open to new ideas, collaborations, and opportunities.
@@ -324,7 +321,6 @@
     <p>
       Feel free to reach out using the form below. I respond personally to every message and truly appreciate your interest!
     </p>
-
     <form action="https://formspree.io/f/xdkgrggj" method="POST">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -337,12 +333,12 @@
 
         <button type="submit">Submit</button>
     </form>
-
-
   </div>
+</div>
 
-</body>
-</html>
+
+
+<script src="/assets/js/tts.js"></script>
 
   </div>
 

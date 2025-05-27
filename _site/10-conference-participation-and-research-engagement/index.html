@@ -205,7 +205,7 @@
 }
 @media (max-width: 768px) {
   .main-layout {
-    padding-top: 40px;
+    padding-top: 10px;
   }
 }
 
@@ -283,14 +283,25 @@
       </figure>
     </div> <!-- End Page Cover Image -->
     
-    <div class="wrap-content" style="max-width: 600px; margin-left: auto; margin-right: 0;">
+   <div class="wrap-content" style="max-width: 600px; margin: 0 auto;">
+
 
       <header class="header-page">
         <h1 class="page-title">Conference Participation and Research Engagement</h1>
         <div class="page-date"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+      <style>
+  #tts-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
+</style>
+
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button id="tts-btn" onclick="toggleRead()" title="Start Reading" style="cursor: pointer; font-size: 20px; border: none; background: none;">
+    🔊
+  </button>
 </div>
 
 <div class="tts-target">

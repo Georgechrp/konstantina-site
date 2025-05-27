@@ -6,48 +6,49 @@ description: A curated list of seminars, short courses, and skills development p
 img: professional.jpg
 tags: [Intercultural Collaboration, Transatlantic Education, ESL, EFL, Inclusive Practices, AI in Education, Multilingualism, Educational Innovation, Teacher Exchange, EdTech]
 ---
+
+<style>
+  #tts-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
+</style>
+
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-  <button id="tts-btn" onclick="toggleRead()" style="cursor: pointer;">🔊 Listen to this</button>
+  <button id="tts-btn" onclick="toggleRead()" title="Start Reading" style="cursor: pointer; font-size: 20px; border: none; background: none;">
+    🔊
+  </button>
 </div>
+
 <div class="tts-target">
-  A curated list of seminars, short courses, and skills development programs in education and technology.
+  <p>A curated list of seminars, short courses, and skills development programs in education and technology.</p>
+
+  <h2>📚 Seminars & Short Courses</h2>
+  <ul>
+    <li><strong>“STEM in Education”</strong> – University of Athens (UoA)<br><em>09/2023 – 06/2024</em></li>
+    <li><strong>“Teaching Pathways: Skills for Remote Teaching”</strong> – British Council<br><em>04/2022 – 05/2022</em></li>
+    <li><strong>“Editing and Correcting Text”</strong> – University of Athens (UoA)<br><em>05/2021 – 10/2021</em></li>
+    <li><strong>“How to be an Effective Online Teacher”</strong> – Hellenic American Union (HAU)<br><em>03/2021</em></li>
+    <li><strong>“Teaching Foreign Languages to Children of Early School and Pre-School Age”</strong> – University of Athens (UoA)<br><em>09/2019 – 02/2020</em></li>
+  </ul>
+
+  <h2>🗣️ Languages</h2>
+  <ul>
+    <li><strong>Greek</strong>: Native</li>
+    <li><strong>English</strong>: Excellent</li>
+    <li><strong>German</strong>: Advanced</li>
+    <li><strong>Chinese</strong>: Good</li>
+  </ul>
+
+  <h2>💻 IT Skills</h2>
+  <ul>
+    <li>MS Office</li>
+    <li>Wordwall</li>
+    <li>Canva</li>
+    <li>Twinkle</li>
+    <li>Online Conferences: Skype, Zoom, Webex</li>
+  </ul>
 </div>
-## 📚 Seminars & Short Courses
-
-- **“STEM in Education”** – University of Athens (UoA)  
-  *09/2023 – 06/2024*
-
-- **“Teaching Pathways: Skills for Remote Teaching”** – British Council  
-  *04/2022 – 05/2022*
-
-- **“Editing and Correcting Text”** – University of Athens (UoA)  
-  *05/2021 – 10/2021*
-
-- **“How to be an Effective Online Teacher”** – Hellenic American Union (HAU)  
-  *03/2021*
-
-- **“Teaching Foreign Languages to Children of Early School and Pre-School Age”** – University of Athens (UoA)  
-  *09/2019 – 02/2020*
-
----
-
-## 🗣️ Languages
-
-- **Greek**: Native  
-- **English**: Excellent  
-- **German**: Advanced  
-- **Chinese**: Good
-
----
-
-## 💻 IT Skills
-
-- **MS Office**  
-- **Wordwall**  
-- **Canva**  
-- **Twinkle**  
-- **Online Conferences**: Skype, Zoom, Webex
-
-
 
 <script src="{{ site.baseurl }}/assets/js/tts.js"></script>
