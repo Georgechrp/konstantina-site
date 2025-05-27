@@ -1725,4 +1725,8 @@ a.newer-posts:hover {
   .top-bar-title {
     margin-top: 2px;
   }
+  .sidebar {
+  margin-bottom: 0 !important;
+}
+
 }
