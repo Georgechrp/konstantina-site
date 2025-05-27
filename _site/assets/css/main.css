@@ -1502,7 +1502,7 @@ a.newer-posts:hover {
   /* Κάνε το top bar μικρότερο */
   .top-bar {
     padding: 4px 8px;
-    min-height: 22px;
+    min-height: 36px;
   }
 
   .top-bar-title {
@@ -1706,7 +1706,7 @@ a.newer-posts:hover {
 
 @media only screen and (max-width: 768px) {
   .main-layout {
-    padding-top: 10px; /* Δημιουργεί χώρο κάτω από το fixed top-bar */
+    padding-top: 0px; /* Δημιουργεί χώρο κάτω από το fixed top-bar */
   }
 
   .sidebar {
